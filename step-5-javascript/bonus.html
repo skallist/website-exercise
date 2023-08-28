@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Webside</title>
+
+    <style>
+      body {
+        background-color: #fff;
+        font-family: "Arial";
+        margin: 2em;
+        color: #1f5373;
+        transition: background-color 0.5s, color 0.5s;
+      }
+
+      .dark-mode {
+        background-color: #333;
+        color: #fff;
+      }
+      .dark-mode p {
+        background-color: #607b8c;
+      }
+      .dark-mode a {
+        color: #a7d5f2;
+      }
+
+      h2 {
+        color: #f29bcb;
+      }
+
+      p {
+        width: 600px;
+        background-color: #a7d5f2;
+        padding: 15px;
+        border: solid 1px #1f5373;
+      }
+
+      .content {
+        overflow: hidden;
+        max-height: 50px;
+        transition: max-height 0.3s ease;
+      }
+
+      .show-more {
+        max-height: 1000px;
+        transition: max-height 0.3s ease-in;
+      }
+    </style>
+
+    <script type="text/javascript">
+      // code goes here
+      function toggleTheme() {
+        const body = document.body;
+
+        if (body.classList.contains("dark-mode")) {
+          body.classList.remove("dark-mode");
+        } else {
+          body.classList.add("dark-mode");
+        }
+      }
+
+      function toggleContent(id) {
+        const content = document.getElementById(id);
+        if (content.classList.contains("show-more")) {
+          content.classList.remove("show-more");
+        } else {
+          content.classList.add("show-more");
+        }
+      }
+    </script>
+  </head>
+
+  <body>
+    <h1>Webside</h1>
+    <h2>En webside om websider</h2>
+    <p>
+      "Meta" er et prefiks av gresk opprinnelse som indikerer et konsept som er
+      en abstraksjon fra et annet konsept, brukt for å analysere det siste. På
+      engelsk betyr "meta" ofte "utover", "etter", eller "selv". I norske
+      sammenhenger, spesielt innen IT, brukes "meta" ofte på samme måte som på
+      engelsk, for eksempel i ordet "metadata", som betyr data om data.
+    </p>
+
+    <div>
+      <div class="content" id="description">
+        <p>
+          <b>Beginnings and ECMAScript Standards:</b> JavaScript was introduced
+          in 1995 as a scripting language for Netscape Navigator. Its initial
+          role was to add interactivity to web pages, a task previously reserved
+          for server-side scripts or static HTML. Realizing its potential, the
+          European Computer Manufacturers Association (ECMA) standardized the
+          language in 1997, giving birth to ECMAScript (ES). Subsequent
+          versions, especially ES3 (1999) and ES5 (2009), introduced essential
+          features and improvements, solidifying JavaScript's place in web
+          development.
+        </p>
+        <p>
+          <b>Rise of Frameworks and Single Page Applications (SPAs):</b> As the
+          internet evolved, so did user expectations for web applications. The
+          need for more dynamic, responsive interfaces led to the rise of
+          JavaScript frameworks and libraries like jQuery, AngularJS, React, and
+          Vue.js. These tools transformed the development landscape, making it
+          easier to build complex applications while also improving performance.
+          SPAs, which load a single HTML page and dynamically update content,
+          became a popular architectural style, providing users with a smoother,
+          app-like experience.
+        </p>
+        <p>
+          <b>Modern JavaScript and Beyond:</b> ES6 (or ES2015) marked a
+          significant milestone in JavaScript's evolution, introducing a
+          multitude of new features such as arrow functions, promises, and
+          classes. This version paved the way for yearly updates to the
+          ECMAScript standard, ensuring continuous growth and refinement.
+          Additionally, the Node.js runtime expanded JavaScript's capabilities
+          from the browser to the server-side, giving rise to the full-stack
+          JavaScript ecosystem. As the web continues its relentless evolution,
+          JavaScript remains at the forefront, adapting and growing to meet the
+          ever-changing needs of developers and users alike.
+        </p>
+      </div>
+      <button onclick="toggleContent('description')">Show More/Less</button>
+    </div>
+
+    <button onclick="toggleTheme()">Dark mode av/på</button>
+    <a href="about.html">Gå hit for å lese mer</a>
+  </body>
+</html>
