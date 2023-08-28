@@ -6,7 +6,18 @@ I dette steget skal vi legge til noen elementer:
 - Et avsnitt med tekst
 - Et bilde
 
-index.html i denne katalogen inneholder løsning
+1. Åpne index.html
+2. Legg til et `<h1>`-element med din egen tekst
+3. Legg til et `<p>`-element med en lengre tekst
+4. Legg til et `<img>`-element med referanse til et bilde
+
+- Det kan være greit å legge et bilde i samme mappe som index.html
+
+Elementene du skal bruke er beskrevet nedenfor.
+
+_index.html i denne katalogen inneholder løsning om du står fast_
+
+[Videre til Steg 3 - flere sider](./step-3-pages/README.md)
 
 ### Litt om elementer
 

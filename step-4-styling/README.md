@@ -74,6 +74,8 @@ Alle `<p>`-elementer:
 - padding: luft på innsiden av boksen skal være 15 pixels
 - border: kanten rundt skal være solid, 1 pixel bred og fargen #1f5373
 
+[Videre til Steg 5 - javascript](./step-5-javascript/README.md)
+
 ## Om CSS
 
 Kan settes direkte på HTML-elementer ved hjelp av “style”

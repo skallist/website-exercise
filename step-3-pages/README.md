@@ -38,3 +38,5 @@ I dette steget skal vi legge til en ny side og lage en link fra den første til 
 ### Dersom du står fast
 
 `about.html` i denne katalogen inneholder et forslag til løsning
+
+[Videre til Steg 4 - styling](./step-4-styling/README.md)

@@ -48,3 +48,5 @@ Gå tilbake til mappen og dobbeltklikk på index.html for å åpne den i nettles
 1. Endre teksten i title `<title>{din tekst her}</title>`
 2. Lagre, gå til nettleseren og trykk refresh (ctrl eller cmd + r)
 3. Gjør det sammen med teksten i `<h1>`-elementet i `<body>`
+
+[Videre til Steg 2 - elementer](./step-2-elements/README.md)
