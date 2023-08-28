@@ -1,7 +1,11 @@
 # Hands-on øvelse - bygge en webside
 
 ## Innhold
-[Steg 1](./step-1/README.md)
+[Steg 1](./step-1-html/README.md)
+[Steg 2](./step-2-elements/README.md)
+[Steg 3](./step-3-pages/README.md)
+[Steg 4](./step-4-styling/README.md)
+[Steg 5](./step-5-javascript/README.md)
 
 ## VS Code
 
