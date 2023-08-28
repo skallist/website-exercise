@@ -6,10 +6,6 @@ La oss legge til litt styling på siden vår.
 
 2. Legg til følgende CSS inn i `<style>`-elementet:
 
-3. Trykk lagre
-
-4. Refresh nettleseren
-
 ```css
 body {
   background-color: white;
@@ -30,7 +26,11 @@ p {
 }
 ```
 
-### Nedbrytning
+3. Trykk lagre
+
+4. Refresh nettleseren
+
+### Forklaring av CSS-reglene
 
 ```css
 body {

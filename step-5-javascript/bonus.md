@@ -22,11 +22,13 @@ CSS
 ```css
 .content {
   overflow: hidden;
-  height: 50px;
+  max-height: 50px;
+  transition: max-height 0.3s ease;
 }
 
 .show-more {
-  height: auto;
+  max-height: 1000px;
+  transition: max-height 0.3s ease-in;
 }
 ```
 
@@ -34,8 +36,8 @@ Eksempel innhold og knapp
 HTML
 
 ```html
-<div class="content" id="description1">Lang beskrivelse...</div>
-<button onclick="toggleContent('description1')">Show More/Less</button>
+<div class="content" id="description">Lang beskrivelse...</div>
+<button onclick="toggleContent('description')">Show More/Less</button>
 ```
 
 ### Smooth scroll til seksjon

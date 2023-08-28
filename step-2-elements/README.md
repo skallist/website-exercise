@@ -11,19 +11,22 @@ I dette steget skal vi legge til noen elementer:
 3. Legg til et `<p>`-element med en lengre tekst
 4. Legg til et `<img>`-element med referanse til et bilde
 
-- Det kan være greit å legge et bilde i samme mappe som index.html
+- Det kan være greit å legge et bilde i samme mappe som index.html:
+  ![Alt text](image.png)
 
-Elementene du skal bruke er beskrevet nedenfor.
+**Elementene er beskrevet nedenfor**
+
+### Dersom du står fast
 
 _index.html i denne katalogen inneholder løsning om du står fast_
 
 [Videre til Steg 3 - flere sider](../step-3-pages/README.md)
 
-### Litt om elementer
+## Litt om elementer
 
 De fleste elementer følger samme oppbygning:
 
-`<navn-på-element>innhold</navn-på-element>`
+`<navn-på-element>`innhold`</navn-på-element>`
 
 Vi kaller disse åpne-og-lukke tags
 
