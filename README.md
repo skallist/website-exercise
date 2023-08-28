@@ -1,5 +1,8 @@
 # Hands-on øvelse - bygge en webside
 
+## Innhold
+[Steg 1](./step-1/README.md)
+
 ## VS Code
 
 Ikke strengt nødvendig, men det hjelper en del
