@@ -9,6 +9,7 @@ I dette steget skal vi legge litt JavaScript som gjør siden vår mer interaktiv
 ```javascript
 function toggleTheme() {
   const body = document.body;
+
   if (body.classList.contains("dark-mode")) {
     body.classList.remove("dark-mode");
   } else {
@@ -32,6 +33,12 @@ body {
   background-color: #333;
   color: #fff;
 }
+.dark-mode p {
+  background-color: #607b8c;
+}
+.dark-mode a {
+  color: #a7d5f2;
+}
 ```
 
 3. Legg til en knapp i HTML-koden for å skru dark mode av og på
@@ -41,3 +48,5 @@ body {
 ```
 
 4. Lagre endringene og refresh nettleseren
+
+[Videre til Steg 6 - Do it yourself](../step-6-diy/README.md)

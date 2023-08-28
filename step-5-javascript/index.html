@@ -9,11 +9,18 @@
         font-family: "Arial";
         margin: 2em;
         color: #1f5373;
+        transition: background-color 0.5s, color 0.5s;
       }
 
       .dark-mode {
         background-color: #333;
         color: #fff;
+      }
+      .dark-mode p {
+        background-color: #607b8c;
+      }
+      .dark-mode a {
+        color: #a7d5f2;
       }
 
       h2 {
@@ -32,6 +39,7 @@
       // code goes here
       function toggleTheme() {
         const body = document.body;
+
         if (body.classList.contains("dark-mode")) {
           body.classList.remove("dark-mode");
         } else {
@@ -53,8 +61,6 @@
     </p>
 
     <button onclick="toggleTheme()">Dark mode av/på</button>
-    <div>
-      <a href="about.html">Gå hit for å lese mer</a>
-    </div>
+    <a href="about.html">Gå hit for å lese mer</a>
   </body>
 </html>

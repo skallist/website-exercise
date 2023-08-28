@@ -17,7 +17,7 @@ Elementene du skal bruke er beskrevet nedenfor.
 
 _index.html i denne katalogen inneholder løsning om du står fast_
 
-[Videre til Steg 3 - flere sider](./step-3-pages/README.md)
+[Videre til Steg 3 - flere sider](../step-3-pages/README.md)
 
 ### Litt om elementer
 
