@@ -4,11 +4,40 @@
     <title>Webside</title>
 
     <style>
-      /* styles go here */
+      body {
+        background-color: #fff;
+        font-family: "Arial";
+        margin: 2em;
+        color: #1f5373;
+      }
+
+      .dark-mode {
+        background-color: #333;
+        color: #fff;
+      }
+
+      h2 {
+        color: #f29bcb;
+      }
+
+      p {
+        width: 600px;
+        background-color: #a7d5f2;
+        padding: 15px;
+        border: solid 1px #1f5373;
+      }
     </style>
 
     <script type="text/javascript">
       // code goes here
+      function toggleTheme() {
+        const body = document.body;
+        if (body.classList.contains("dark-mode")) {
+          body.classList.remove("dark-mode");
+        } else {
+          body.classList.add("dark-mode");
+        }
+      }
     </script>
   </head>
 
@@ -23,9 +52,9 @@
       engelsk, for eksempel i ordet "metadata", som betyr data om data.
     </p>
 
+    <button onclick="toggleTheme()">Dark mode av/på</button>
     <div>
       <a href="about.html">Gå hit for å lese mer</a>
     </div>
-    <img src="bilde.jpg" alt="bilde av en skjerm" />
   </body>
 </html>

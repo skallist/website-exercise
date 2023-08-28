@@ -4,7 +4,7 @@ I dette steget skal vi legge litt JavaScript som gjør siden vår mer interaktiv
 
 ### Dark mode av/på
 
-JavaScript
+1. Åpne index.html og lim inn følgende i `<script>`-elementet:
 
 ```javascript
 function toggleTheme() {
@@ -17,10 +17,14 @@ function toggleTheme() {
 }
 ```
 
-CSS
+2. Oppdater CSS-en i `<style>`-elementet som følger:
 
 ```css
 body {
+  background-color: #fff;
+  font-family: "Arial";
+  margin: 2em;
+  color: #1f5373;
   transition: background-color 0.5s, color 0.5s;
 }
 
@@ -30,98 +34,10 @@ body {
 }
 ```
 
-HTML
+3. Legg til en knapp i HTML-koden for å skru dark mode av og på
 
 ```html
 <button onclick="toggleTheme()">Dark mode av/på</button>
 ```
 
-### Vis mer/mindre feature
-
-JavaScript
-
-```javascript
-function toggleContent(id) {
-  const content = document.getElementById(id);
-  if (content.classList.contains("show-more")) {
-    content.classList.remove("show-more");
-  } else {
-    content.classList.add("show-more");
-  }
-}
-```
-
-CSS
-
-```css
-.content {
-  overflow: hidden;
-  height: 50px;
-}
-
-.show-more {
-  height: auto;
-}
-```
-
-Eksempel innhold og knapp
-HTML
-
-```html
-<div class="content" id="description1">Lang beskrivelse...</div>
-<button onclick="toggleContent('description1')">Show More/Less</button>
-```
-
-### Smooth scroll til seksjon
-
-JavaScript
-
-```javascript
-function smoothScroll(targetId) {
-  const target = document.getElementById(targetId);
-  target.scrollIntoView({ behavior: "smooth" });
-}
-```
-
-HTML
-
-```html
-<a href="javascript:void(0)" onclick="smoothScroll('section2')"
-  >Go to Section 2</a
->
-...
-<div id="section2">Content of section 2</div>
-```
-
-### Skills bar
-
-JavaScript
-
-```javascript
-window.addEventListener("scroll", () => {
-  const skillBar = document.getElementById("skillBar1");
-  const position = skillBar.getBoundingClientRect();
-  if (position.top < window.innerHeight && position.bottom >= 0) {
-    skillBar.style.width = skillBar.getAttribute("data-skill-level");
-  }
-});
-```
-
-CSS
-
-```css
-.skill-bar {
-  height: 20px;
-  width: 0;
-  background-color: #3498db;
-  transition: width 1s;
-}
-```
-
-HTML
-
-```html
-<div class="skill-container">
-  <div class="skill-bar" id="skillBar1" data-skill-level="80%"></div>
-</div>
-```
+4. Lagre endringene og refresh nettleseren
