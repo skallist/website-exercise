@@ -18,7 +18,7 @@ I dette steget skal vi legge til noen elementer:
 
 ### Dersom du står fast
 
-_index.html i denne katalogen inneholder løsning om du står fast_
+`index.html` i denne katalogen inneholder løsning om du står fast
 
 [Videre til Steg 3 - flere sider](../step-3-pages/README.md)
 

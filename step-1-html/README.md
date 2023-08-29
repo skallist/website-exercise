@@ -2,17 +2,13 @@
 
 ## VS Code
 
-Ikke strengt nødvendig, men det hjelper en del
-
-Gå til https://code.visualstudio.com/download og last ned
-
-Følg instruksjonene for å installere
+Gå til https://vscode.dev/ i en nettleser eller last ned VS Code fra https://code.visualstudio.com/download
 
 ## Mappestruktur
 
 1. Lag en ny mappe (hvor som helst)
 2. Kall den noe beskrivende (f.eks webside)
-3. Åpne mappen fra VS Code
+3. Åpne mappen fra VS Code (open folder)
 4. Legg til en ny fil, kall den index.html
 
 ## Index.html
